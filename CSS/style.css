@@ -107,6 +107,10 @@ header.sticky {
 
 }
 
+.header-icons{
+    display: none;
+}
+
 .header-container {
     width: 1390px;
     margin: auto;
@@ -124,6 +128,15 @@ header.sticky {
 
 header.sticky .logo {
     color: #fffafa;
+}
+
+header.sticky .header-icons {
+    color: #fffafa;
+}
+
+.header-nav{
+    width: 100%;
+    height: auto;
 }
 
 nav ul li {
@@ -315,10 +328,6 @@ header.sticky nav ul li a:hover {
     line-height: 1.3;
 }
 
-
-.clearfix {
-    clear: both;
-}
 
 /* about section  */
 
@@ -873,12 +882,6 @@ header.sticky nav ul li a:hover {
 }
 
 
-.box-2 .quote,
-.box-5 .quote {
-    background-color: var(--color6);
-    border: 1px solid #b2a399;
-}
-
 .testimonials-container .box-2 {
     margin-top: 170px !important;
     background-color: var(--color6);
@@ -1011,11 +1014,6 @@ header.sticky nav ul li a:hover {
     line-height: 1.5;
 }
 
-.ctaaa {
-    width: 100%;
-    height: auto;
-    padding-bottom: 70px;
-}
 
 .ctaaa-container {
     width: 95%;
@@ -1182,7 +1180,7 @@ header.sticky nav ul li a:hover {
 
 .transform-container {
     width: 1390px;
-    margin: 60px auto 0;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -1197,6 +1195,7 @@ header.sticky nav ul li a:hover {
     padding: 40px 10px;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
+    gap: 15px;
 }
 
 
@@ -1204,7 +1203,6 @@ header.sticky nav ul li a:hover {
     width: 90%;
     height: auto;
     padding: 20px;
-    margin-top: 30px;
     background-color: var(--color2);
     border-radius: 20px;
 }
@@ -1233,6 +1231,7 @@ header.sticky nav ul li a:hover {
     background-color: var(--color2);
     padding: 50px;
     border-radius: 20px;
+    margin-top: 60px;
 }
 
 .transform-headding {
